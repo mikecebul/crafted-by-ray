@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Avatar from '../../../public/avatar.png'
+import Avatar from '../../public/avatar.png'
 
 const testimonies = [
   { avatar: Avatar, name: "Jane Doe", quote: "Ray&apos;s prices were so cheap I basically had to force him to take my money!" },

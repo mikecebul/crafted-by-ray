@@ -9,7 +9,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/pages/components/ui/navMenu"
+} from "@/components/ui/navMenu"
 
 const navigation = [
   { name: "Home", href: "#" },

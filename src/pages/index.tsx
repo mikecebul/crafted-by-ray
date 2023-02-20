@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import HeroBackground from '../../public/hero_background.jpg'
-import HeroCTA from './components/heroCTA'
-import Testimonials from './components/testimonial'
+import HeroCTA from '../components/heroCTA'
+import Testimonials from '../components/testimonial'
 
 export default function Home() {
   return (
