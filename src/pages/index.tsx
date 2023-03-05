@@ -17,9 +17,7 @@ export default function Home() {
         <Image src={HeroBackground} alt="Pine wood panels background" className='w-full h-[434px] object-cover absolute inset-0 -z-10' />
         <HeroCTA />
         {/* Testimonials */}
-        <div className='px-4 py-8 bg-amber-200'>
           <Testimonials />
-        </div>
       </main>
     </>
   )
