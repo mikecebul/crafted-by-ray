@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <motion.div
-      className="bg-amber-50"
+      className=""
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.3 }}
