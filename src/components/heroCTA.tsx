@@ -25,7 +25,7 @@ const HeroCTA = () => {
           d="M2.76434 4.38295C2.76434 4.38295 55.1851 -1.77082 75.996 7.49152"
           stroke="#F59E0B"
           strokeWidth="4"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </svg>
 

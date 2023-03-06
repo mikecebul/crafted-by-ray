@@ -1,7 +1,8 @@
 import Link from "next/link";
-import Logo from "./logo";
+import Logo from "./ui/logo";
 import { Menu } from "lucide-react";
 import { motion } from "framer-motion";
+import { navigation } from "@/lib/utils";
 
 import {
   Dialog,
@@ -11,13 +12,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/navMenu";
-
-const navigation = [
-  { name: "Home", href: "#" },
-  { name: "Portfolio", href: "#" },
-  { name: "Merch", href: "#" },
-  { name: "Contact", href: "#" },
-];
 
 const Navbar = () => {
   return (
