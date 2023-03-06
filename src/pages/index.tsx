@@ -1,9 +1,9 @@
-import Projects from '@/components/projects'
-import Head from 'next/head'
-import Image from 'next/image'
-import HeroBackground from '../../public/hero_background.jpg'
-import HeroCTA from '../components/heroCTA'
-import Testimonials from '../components/testimonial'
+import Projects from "@/components/projects";
+import Head from "next/head";
+import Image from "next/image";
+import HeroBackground from "../../public/hero_background.jpg";
+import HeroCTA from "../components/heroCTA";
+import Testimonials from "../components/testimonial";
 
 export default function Home() {
   return (
@@ -14,12 +14,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=''>
-        <Image src={HeroBackground} alt="Pine wood panels background" className='w-full h-[434px] object-cover absolute inset-0 -z-10' />
+      <main className="">
+        <Image
+          src={HeroBackground}
+          alt="Pine wood panels background"
+          className="w-full h-[434px] object-cover absolute inset-0 -z-10"
+        />
         <HeroCTA />
         <Testimonials />
         <Projects />
       </main>
     </>
-  )
+  );
 }

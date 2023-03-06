@@ -13,14 +13,19 @@ const testimonies = [
 
 const Testimonials = () => {
   return (
-    <div className='flex py-8 overflow-hidden bg-amber-200'>
+    <motion.div
+      className='flex py-8 overflow-hidden bg-amber-200'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.2 }}
+    >
       {testimonies.map((items, index) => (
         <motion.div
           key={index}
           className='flex px-4 py-4 mr-4 rounded bg-amber-400'
           initial={{ x: -160 }}
           animate={{ x: -1072 }}
-          transition={{ repeat: Infinity, repeatType: "loop", duration: 12, ease: "linear" }}
+          transition={{ repeat: Infinity, repeatType: "loop", duration: 15, ease: "linear" }}
         >
           {/* avatar */}
           <div className="flex flex-col items-center justify-center">
@@ -33,7 +38,7 @@ const Testimonials = () => {
         </motion.div>
       ))}
 
-    </div>
+    </motion.div>
   )
 }
 
