@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="">
           <Dialog>
             <DialogTrigger>
-              <Menu />
+              <Menu size={32}/>
             </DialogTrigger>
             <DialogContent>
               <DialogHeader>

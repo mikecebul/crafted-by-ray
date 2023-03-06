@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const HeroCTA = () => {
   return (
     <motion.div
-      className="relative px-8 pt-16 pb-16"
+      className="relative px-8 pt-12 pb-16"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.1 }}
@@ -14,7 +14,7 @@ const HeroCTA = () => {
         Custom<span className="block">Woodworking</span>
       </h1>
       <svg
-        className="absolute top-[100px] left-[66px]"
+        className="absolute top-[84px] left-[66px]"
         width="78"
         height="10"
         viewBox="0 0 78 10"
