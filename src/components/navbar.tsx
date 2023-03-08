@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "./ui/logo";
-import { Menu } from "lucide-react";
+import { Menu } from 'lucide-react'
 import { motion } from "framer-motion";
 import { navigation } from "@/lib/utils";
 
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="">
           <Dialog>
             <DialogTrigger>
-              <Menu size={32}/>
+            <Menu size={32} />
             </DialogTrigger>
             <DialogContent>
               <DialogHeader>
