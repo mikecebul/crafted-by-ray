@@ -1,8 +1,10 @@
+'use client'
+
 import Link from "next/link";
 import Logo from "./ui/logo";
 import { Menu } from 'lucide-react'
 import { motion } from "framer-motion";
-import { navigation } from "@/lib/utils";
+import { navigation } from "lib/utils";
 
 import {
   Dialog,

@@ -1,5 +1,7 @@
+'use client'
+
 import Image from 'next/image'
-import Avatar from '../../public/avatar.png'
+import Avatar from 'public/avatar.png'
 import { motion } from "framer-motion"
 
 const testimonies = [

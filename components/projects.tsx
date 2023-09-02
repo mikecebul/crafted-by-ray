@@ -1,7 +1,9 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Thumbnail from "../../public/thumbnail 1.png";
+import Thumbnail from "public/thumbnail 1.png"
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -17,11 +19,6 @@ const Projects = () => {
       </h2>
       <div className="flex flex-col w-full py-4">
         <div className="flex flex-col items-center">
-          <Image
-            className="object-cover w-full"
-            src={Thumbnail}
-            alt="YouTube video preview"
-          />
           <div className="p-8 bg-amber-200">
             <p className="text-2xl font-semibold">DIY Wooden Card Box</p>
             <p className="pt-4 text-lg font-light">
@@ -58,7 +55,8 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-        </div><div className="flex flex-col items-center">
+        </div>
+        <div className="flex flex-col items-center">
           <Image
             className="object-cover w-full"
             src={Thumbnail}

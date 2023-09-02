@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.6",
+    "@next/font": "^13.4.19",
     "@radix-ui/react-dialog": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
@@ -17,7 +17,7 @@
     "eslint-config-next": "13.1.6",
     "framer-motion": "^10.0.2",
     "lucide-react": "^0.124.0",
-    "next": "13.1.6",
+    "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.5",

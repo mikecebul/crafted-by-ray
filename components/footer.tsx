@@ -1,6 +1,6 @@
 import React from "react";
 import LogoFooter from "./ui/logoFooter";
-import { navigation } from "@/lib/utils";
+import { navigation } from "lib/utils";
 import Link from "next/link";
 import { Edit, Facebook, Mail, Phone, User } from "lucide-react";
 import { Instagram } from "lucide-react";
